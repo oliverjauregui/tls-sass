@@ -1,8 +1,6 @@
 .bannerTls
     @include imagen-fondo(url(../images/banner.jpg))
     height: 115vh
-    padding-right: 80px
-    padding-left: 80px
     padding-top: 40px
     display: flex
     flex-direction: column
@@ -14,6 +12,10 @@
     
     nav
         @include center()
+
+.tls_header_align
+    display: flex
+    align-items: center
 
 .tls_header_nav
     @extend .tls_header
@@ -46,6 +48,7 @@
     align-self: flex-end
     position: fixed
     bottom: 40px
+    right: 8%
     z-index: 3
     @include center()
 
@@ -101,7 +104,7 @@
 
 .tls_home_beneficios
     background-color: #F0F0F0
-    height: 500px
+    height: 600px
     display: flex
     flex-direction: column
     justify-content: space-around
