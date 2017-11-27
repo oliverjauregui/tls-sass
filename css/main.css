@@ -132,14 +132,20 @@
   height: 600px;
   display: flex;
   flex-direction: column;
-  justify-content: space-around; }
+  justify-content: space-around;
+  border-top-right-radius: 0;
+  animation: curve 0s ease forwards; }
+@keyframes curve {
+  100% {
+    border-radius: 250% 100%/25% 25%; } }
   .tls_home_beneficios h2 {
     color: #00AFF0;
     font-size: 48px;
     margin-bottom: 25px; }
-  .tls_home_beneficios p {
-    font-family: texto;
-    font-size: 18px; }
+
+.tls_home_beneficios_description {
+  font-family: texto;
+  font-size: 18px; }
 
 .tls_home_benefits_container {
   display: flex;
@@ -163,5 +169,11 @@
 
 .purple_benefits {
   background-color: #A4258F; }
+
+.tls_home_beneficios_circle_text {
+  color: #fff;
+  font-size: 16px;
+  font-family: texto;
+  margin-top: 15px; }
 
 /*# sourceMappingURL=main.css.map */

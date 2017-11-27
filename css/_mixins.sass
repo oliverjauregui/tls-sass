@@ -23,6 +23,13 @@
             border-bottom-right-radius: 0
             border-bottom-left-radius: 0
 
+@mixin borde-doble()
+    border-top-right-radius: 0
+    animation: curve 0s ease forwards
+    @keyframes curve
+        100%
+            border-radius: 250% 100% / 25% 25%
+
 @mixin center()
     display: flex
     justify-content: center

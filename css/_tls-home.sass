@@ -108,15 +108,16 @@
     display: flex
     flex-direction: column
     justify-content: space-around
+    @include borde-doble()
 
     h2
         color: $azulTls
         font-size: 48px
         margin-bottom: 25px
     
-    p
-        font-family: texto
-        font-size: 18px
+.tls_home_beneficios_description
+    font-family: texto
+    font-size: 18px
 
 .tls_home_benefits_container
     display: flex
@@ -144,3 +145,9 @@
 .purple_benefits
     @extend .tls_home_benefits_container_item
     background-color: $moradoTls
+
+.tls_home_beneficios_circle_text
+    color: #fff
+    font-size: 16px
+    font-family: texto
+    margin-top: 15px
