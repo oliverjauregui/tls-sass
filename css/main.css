@@ -80,8 +80,6 @@
   height: 600px;
   border-top-right-radius: 0;
   animation: curve 0s ease forwards;
-  display: flex;
-  justify-content: space-between;
   margin-top: -50px;
   position: relative; }
 @keyframes curve {
@@ -93,17 +91,10 @@
     color: #F77121;
     font-size: 48px; }
   .tls_home_why .why_texto {
-    margin-top: 88px;
-    margin-left: 80px; }
+    margin-top: 88px; }
   .tls_home_why .why_img {
-    margin-right: 90px;
     position: absolute;
-    left: 795px;
     top: -70px; }
-
-.container {
-  width: 960px;
-  margin: 0 auto; }
 
 .tls_home_why_row {
   display: flex;
@@ -141,7 +132,8 @@
   justify-content: space-around; }
   .tls_home_beneficios h2 {
     color: #00AFF0;
-    font-size: 48px; }
+    font-size: 48px;
+    margin-bottom: 25px; }
   .tls_home_beneficios p {
     font-family: texto;
     font-size: 18px; }
