@@ -101,6 +101,10 @@
     left: 795px;
     top: -70px; }
 
+.container {
+  width: 960px;
+  margin: 0 auto; }
+
 .tls_home_why_row {
   display: flex;
   flex-direction: column; }
@@ -134,9 +138,7 @@
   height: 500px;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
-  padding-left: 80px;
-  padding-right: 80px; }
+  justify-content: space-around; }
   .tls_home_beneficios h2 {
     color: #00AFF0;
     font-size: 48px; }
@@ -152,7 +154,7 @@
   height: 230px;
   width: 230px;
   border-radius: 500px;
-  display: flex;
+  display: flex !important;
   flex-direction: column;
   justify-content: center;
   text-align: center;
@@ -166,9 +168,5 @@
 
 .purple_benefits {
   background-color: #A4258F; }
-
-.container {
-  width: 960px;
-  margin: 0 auto; }
 
 /*# sourceMappingURL=main.css.map */

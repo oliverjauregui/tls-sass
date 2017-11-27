@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/main.css">
-    <link href="https://opensource.keycdn.com/fontawesome/4.7.0/font-awesome.min.css" rel="stylesheet">    
+    <link href="https://opensource.keycdn.com/fontawesome/4.7.0/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-grid-only@1.0.0/bootstrap.css">    
     <title>TLS-Web Page</title>
 </head>
 <body>
@@ -30,7 +31,7 @@
         </header>
         <div class="button-message"><i class="fa fa-comment" aria-hidden="true"></i></div>
     </div>
-    <section class="tls_home_why">
+    <section class="tls_home_why container">
         <div class="tls_home_why_row why_texto">
             <h2>¿PORQUE TLS<br>LAUTREC?</h2>
             <div class="tls_home_why_container">
@@ -64,33 +65,40 @@
                 </div>
             </div>
         </div>
-        <div class="tls_home_why_row why_img container">
+        <div class="tls_home_why_row why_img">
             <img src="images/why1.png" alt="people" height="420" width="431">
             <img src="images/why2.png" alt="people" height="327" width="343" style="margin-right=20px;">
         </div>
     </section>
-    <section class="tls_home_beneficios">
-        <div>
+    <section class="tls_home_beneficios row">
+        <div class="col-md-10 col-md-offset-1">
             <h2>BENEFICIOS</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>Totam quas, delectus vero porro velit aperiam magni<br>voluptates ipsum nisi doloribus,<br> ut pariatur eius, enim itaque dicta? Maxime porro natus nihil.</p>
         </div>
-        <div class="tls_home_benefits_container">
-            <div class="orange_benefits">
-                <div>
-                    <img src="images/vr.png" alt="vr" height="41" width="140">
-                    <img src="images/arcade.png" alt="arcade_music" height="59" width="127">
+        <div class="tls_home_benefits_container row">
+            <div class="col-md-3">
+                <div class="orange_benefits center-block">
+                    <div>
+                        <img src="images/vr.png" alt="vr" height="41" width="140">
+                        <img src="images/arcade.png" alt="arcade_music" height="59" width="127">
+                    </div>
+                    <p>Asesoria en Proyectos<br>desarrollados por<br>alumnos</p>
                 </div>
-                <p>Asesoria en Proyectos<br>desarrollados por<br>alumnos</p>
             </div>
-            <div class="green_benefits">
-                <img src="images/brain.png" alt="empleos" height="105" width="82">
-                <p>Contamos con un Portal<br>de Empleabilidad para<br>ayudarte a conseguir<br>trabajo</p>
+            <div class="col-md-3">
+                <div class="green_benefits center-block">
+                    <img src="images/brain.png" alt="empleos" height="105" width="82">
+                    <p>Contamos con un Portal<br>de Empleabilidad para<br>ayudarte a conseguir<br>trabajo</p>
+                </div>
             </div>
-            <div class="purple_benefits">
-                <img src="images/carreras_creativas.png" alt="carreras" height="56" width="159">
-                <p>El unico instituto<br>dedicado a carreras<br>creativas</p>
+            <div class="col-md-3">
+                <div class="purple_benefits center-block">
+                    <img src="images/carreras_creativas.png" alt="carreras" height="56" width="159">
+                    <p>El unico instituto<br>dedicado a carreras<br>creativas</p>
+                </div>
             </div>
         </div>
     </section>
 </body>
 </html>
+
