@@ -65,7 +65,7 @@
   border-radius: 50px;
   align-self: flex-end;
   position: fixed;
-  top: 500px;
+  bottom: 40px;
   z-index: 3;
   display: flex;
   justify-content: center;
@@ -166,5 +166,9 @@
 
 .purple_benefits {
   background-color: #A4258F; }
+
+.container {
+  width: 960px;
+  margin: 0 auto; }
 
 /*# sourceMappingURL=main.css.map */
