@@ -45,6 +45,8 @@
     border-radius: 50px
     align-self: flex-end
     position: fixed
+    top: 500px
+    z-index: 3
     @include center()
 
     i
@@ -53,10 +55,12 @@
 
 .tls_home_why
     width: 100%
-    background-color: $verdeTls
-    @include borde-superior(700px)
+    background-color: #fff
+    @include borde-superior(600px)
     display: flex
     justify-content: space-between
+    margin-top: -50px
+    position: relative
 
     h2
         color: $naranjaTls
@@ -67,6 +71,9 @@
         margin-left: 80px
     .why_img
         margin-right: 90px
+        position: absolute
+        left: 795px
+        top: -70px
         
 
 .tls_home_why_row
@@ -97,3 +104,46 @@
 .tls_home_why_icons
     height: 56px
     margin-bottom: 15px
+
+.tls_home_beneficios
+    background-color: #F0F0F0
+    height: 500px
+    display: flex
+    flex-direction: column
+    justify-content: space-around
+    padding-left: 80px
+    padding-right: 80px
+
+    h2
+        color: $azulTls
+        font-size: 48px
+    
+    p
+        font-family: texto
+        font-size: 18px
+
+.tls_home_benefits_container
+    display: flex
+    justify-content: space-around
+
+.tls_home_benefits_container_item
+    height: 230px
+    width: 230px
+    border-radius: 500px
+    display: flex
+    flex-direction: column
+    justify-content: center
+    text-align: center
+    align-items: center
+
+.orange_benefits
+    @extend .tls_home_benefits_container_item
+    background-color: $naranjaTls
+
+.green_benefits
+    @extend .tls_home_benefits_container_item
+    background-color: $verdeTls
+
+.purple_benefits
+    @extend .tls_home_benefits_container_item
+    background-color: $moradoTls

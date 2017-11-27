@@ -65,6 +65,8 @@
   border-radius: 50px;
   align-self: flex-end;
   position: fixed;
+  top: 500px;
+  z-index: 3;
   display: flex;
   justify-content: center;
   align-items: center; }
@@ -74,12 +76,14 @@
 
 .tls_home_why {
   width: 100%;
-  background-color: #A6CE39;
-  height: 700px;
+  background-color: #fff;
+  height: 600px;
   border-top-right-radius: 0;
   animation: curve 0s ease forwards;
   display: flex;
-  justify-content: space-between; }
+  justify-content: space-between;
+  margin-top: -50px;
+  position: relative; }
 @keyframes curve {
   100% {
     border-radius: 250% 250%/25% 25%;
@@ -92,7 +96,10 @@
     margin-top: 88px;
     margin-left: 80px; }
   .tls_home_why .why_img {
-    margin-right: 90px; }
+    margin-right: 90px;
+    position: absolute;
+    left: 795px;
+    top: -70px; }
 
 .tls_home_why_row {
   display: flex;
@@ -121,5 +128,43 @@
 .tls_home_why_icons {
   height: 56px;
   margin-bottom: 15px; }
+
+.tls_home_beneficios {
+  background-color: #F0F0F0;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-left: 80px;
+  padding-right: 80px; }
+  .tls_home_beneficios h2 {
+    color: #00AFF0;
+    font-size: 48px; }
+  .tls_home_beneficios p {
+    font-family: texto;
+    font-size: 18px; }
+
+.tls_home_benefits_container {
+  display: flex;
+  justify-content: space-around; }
+
+.tls_home_benefits_container_item, .orange_benefits, .green_benefits, .purple_benefits {
+  height: 230px;
+  width: 230px;
+  border-radius: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center; }
+
+.orange_benefits {
+  background-color: #F77121; }
+
+.green_benefits {
+  background-color: #A6CE39; }
+
+.purple_benefits {
+  background-color: #A4258F; }
 
 /*# sourceMappingURL=main.css.map */
