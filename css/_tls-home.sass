@@ -1,0 +1,99 @@
+.bannerTls
+    @include imagen-fondo(url(../images/banner.jpg))
+    height: 115vh
+    padding-right: 80px
+    padding-left: 80px
+    padding-top: 40px
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+
+.tls_header
+    display: flex
+    justify-content: space-between
+    
+    nav
+        @include center()
+
+.tls_header_nav
+    @extend .tls_header
+
+    li
+        margin-left: 40px
+
+.tls_header_nav_link
+    color: rgba(#FEFEFE, .7)
+    
+.tls_header_list
+    @include center()
+
+    li
+        height: 22px
+        width: 22px
+        background-color: #fff
+        margin-left: 15px
+        border-radius: 50px
+        @include center()
+
+        i
+            color: #4F4F4F
+
+.button-message
+    height: 66px
+    width: 66px
+    background-color: $rojoTls
+    border-radius: 50px
+    align-self: flex-end
+    position: fixed
+    @include center()
+
+    i
+        font-size: 37px
+        color: #fff
+
+.tls_home_why
+    width: 100%
+    background-color: $verdeTls
+    @include borde-superior(700px)
+    display: flex
+    justify-content: space-between
+
+    h2
+        color: $naranjaTls
+        font-size: 48px
+
+    .why_texto
+        margin-top: 88px
+        margin-left: 80px
+    .why_img
+        margin-right: 90px
+        
+
+.tls_home_why_row
+    display: flex
+    flex-direction: column
+
+.tls_home_why_container
+    display: flex
+    flex-direction: column
+    align-items: flex-start
+        
+.tls_home_why_container_row
+    display: flex
+    margin-top: 35px
+
+.tls_home_why_item
+    display: flex
+    text-align: center
+    flex-direction: column
+    justify-content: space-between
+    margin-left: 25px
+    color: $azulTls
+
+    p
+        font-family: subtitulos
+        font-size: 20px
+
+.tls_home_why_icons
+    height: 56px
+    margin-bottom: 15px

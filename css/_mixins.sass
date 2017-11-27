@@ -1,0 +1,29 @@
+@mixin imagen-fondo($url)
+    background-image: $url
+    background-size: cover
+    background-position: center
+    background-repeat: no-repeat
+
+@mixin borde-inferior($height)
+    height: $height
+    border-top-right-radius: 0
+    animation: curve 0s ease forwards
+    @keyframes curve
+        100%
+            border-radius: 0 250% 250% / 25% 25%
+            border-top-right-radius: 0
+
+@mixin borde-superior($height)
+    height: $height
+    border-top-right-radius: 0
+    animation: curve 0s ease forwards
+    @keyframes curve
+        100%
+            border-radius: 250% 250% / 25% 25%
+            border-bottom-right-radius: 0
+            border-bottom-left-radius: 0
+
+@mixin center()
+    display: flex
+    justify-content: center
+    align-items: center
