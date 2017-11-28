@@ -1,18 +1,23 @@
 .tls_contactanos_banner
     @include imagen-fondo(url(../images/banner-contactanos.jpg))
-    @include borde-inferior(100vh)
+    @include borde-inferior(115vh)
     background-position: bottom
     padding-top: 40px
+
+.tls_contactanos_container
+    margin-top: 50px
 
 .tls_header_nav_link
     color: rgba(#FEFEFE, .9)
 
-.tls_contactanos_title h2
-    color: #fff
-    font-size: 48px
+.tls_contactanos_title
+    margin-bottom: 40px
+    h2
+        color: #fff
+        font-size: 48px
 
 .tls_contactanos_form label
-    color: #fff
+    color: #333
     font-family: texto
     font-size: 18px
 
@@ -31,5 +36,32 @@
 
 .tls_contactanos_form_p
     font-size: 18px
-    color: #fff
+    color: #333
     font-family: texto
+
+.tls_contactanos_form_submit
+    height: 36px
+    width: 227px
+    background-color: $rojoTls
+    border-radius: 15px
+    color: #fff
+    font-size: 22px
+    border: inherit
+
+.tls_contactanos_form_submit_span span
+    font-family: texto
+    text-decoration: underline 
+
+.tls_contactanos_end
+    color: #333
+    margin-bottom: 40px
+    h3
+        text-align: center
+        font-size: 24px
+        margin-top: 50px
+        margin-bottom: 20px
+
+.tls_contactanos_end_list
+    display: flex
+    align-items: center
+    justify-content: center
